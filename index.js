@@ -57,7 +57,7 @@ connectWithRetry();
 app.enable("trust proxy");
 app.use(cors({}));
 app.get("/api/v1", (req, res) => {
-  res.send("<h2>oh my god!!! hi there<h2>");
+  res.send("<h2>hello world samuel<h2>");
   console.log("yeah it ran");
 });
 
